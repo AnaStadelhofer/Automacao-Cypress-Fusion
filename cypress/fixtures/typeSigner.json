@@ -1,0 +1,22 @@
+{
+    "type": [
+        {
+            "name": "Comprador"
+        },
+        {
+            "name": "Contrante"
+        },
+        {
+            "name": "Fiador"
+        },
+        {
+            "name": "Parte"
+        },
+        {
+            "name": "Testeminha"
+        },
+        {
+            "name": "Vendedor"
+        }
+    ]
+}

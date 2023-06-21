@@ -1,6 +1,7 @@
 {
   "description": "",
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "cypress": "^12.15.0",
     "cypress-iframe": "^1.0.1"
   }
