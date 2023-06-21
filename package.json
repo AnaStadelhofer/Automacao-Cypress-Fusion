@@ -1,0 +1,7 @@
+{
+  "description": "",
+  "devDependencies": {
+    "cypress": "^12.15.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}
