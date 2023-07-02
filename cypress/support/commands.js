@@ -23,3 +23,19 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add("CreateItem", () => {
+  cy.iframe("#onlyCol").within(() => {
+    cy.get("#createitem").click();
+  });
+});
+
+Cypress.Commands.add("CreateGroup", (code, name) => {
+  cy.iframe("iframe:eq(0)").within(() => {
+    cy.get("#var_code__").type(code);
+    cy.get("#var_name__").type(name);
+    cy.get('input[name="action.apply"]').click();
+    cy.get("#cancelButtonModal").click();
+    // cy.get('.modal_closebtn').click();
+  });
+});
